@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-import "./main.css"
+
 
 const IndexPage = () => (
   <Layout>
@@ -20,7 +20,7 @@ const IndexPage = () => (
       ]}
     />
     <div className="intro-wrapper">
-      <div>
+      <div className="headshot">
         <Image />
       </div>
       <h1 className="intro-heading">I'm here for the web shiny.</h1>
