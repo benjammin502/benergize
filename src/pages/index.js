@@ -1,10 +1,10 @@
 import React from "react"
+import { FaLinkedin, FaGithubSquare, FaEnvelopeSquare } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
+import IconButton from "../components/iconbutton"
 import SEO from "../components/seo"
-
-
 
 const IndexPage = () => (
   <Layout>
@@ -23,15 +23,19 @@ const IndexPage = () => (
       <div className="headshot">
         <Image />
       </div>
-      <h1 className="intro-heading">I'm here for the web shiny.</h1>
-      <p className="intro-desc">
-        I'm a Front-End Web Developer residing in the San Francisco Bay Area,
-        California, with an interest in UI/UX and all things web related. I
-        enjoy building small business and personal websites, while working my
-        way up to rich interactive web apps. If you are a business looking to
-        bolster your online web presence, or an employer looking to hire, let's
-        get in touch.
-      </p>
+      <h2 className="intro-heading">Hello there. My name is Ben Myers</h2>
+      <h4 className="intro-subheading">Web Developer. Business Process Automator. Gym Rat.</h4>
+    </div>
+    <div className="button-container">
+      <IconButton text="Stalk Me">
+        <FaLinkedin />
+      </IconButton>
+      <IconButton text="Spam Me">
+        <FaEnvelopeSquare />
+      </IconButton>
+      <IconButton text="Fork Me">
+        <FaGithubSquare />
+      </IconButton>
     </div>
   </Layout>
 )
