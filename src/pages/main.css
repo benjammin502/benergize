@@ -49,15 +49,16 @@
   padding-left: 15px;
   text-decoration: none;
   color: #DDDBF1; /* was dddbf1 */
-  border: 1px solid rgba(221, 219, 241, 0.2); /* 183, 40, 59 */
+  border: 1px solid rgba(132, 124, 224, 0.2); /* 183, 40, 59 */
   border-radius: 50px;
   background: rgba(221, 219, 241, 0.2);
   transition: all 1s;
 }
 
 .button-container > a:hover {
-  background: rgba(221, 219, 241, 0.6);
+  background: rgba(221, 219, 241, 0.4);
   box-shadow: 0 0 25px rgb(29, 32, 43);
+  color: #DDDBF1
 }
 
 .button-container > a:focus {
