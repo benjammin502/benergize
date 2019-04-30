@@ -23,7 +23,7 @@ const IndexPage = () => (
       <div className="headshot">
         <Image />
       </div>
-      <h2 className="intro-heading">Hello there. My name is Ben Myers</h2>
+      <h2 className="intro-heading">Hello there. My name is Ben Myers.</h2>
       <h4 className="intro-subheading">
         Web Developer. Business Process Automator. Gym Rat.
       </h4>
