@@ -367,7 +367,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(-35deg, rgba(36, 40, 52, 95), rgba(46, 52, 67, 0.8) 30%, rgba(35, 39, 51, 95)), url('../images/background6.jpg') no-repeat center;
+  background: linear-gradient(-35deg, rgba(36, 40, 52, 95), rgba(46, 52, 67, 0.9) 30%, rgba(35, 39, 51, 0.9)), url('../images/background6.jpg') no-repeat center;
   background-size: cover;
 }
 
