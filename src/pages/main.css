@@ -49,7 +49,7 @@
   padding-left: 15px;
   text-decoration: none;
   color: #DDDBF1;
-  border: 1px solid #B7283B;
+  border: 1px solid rgba(183, 40, 59, 0.2);
   border-radius: 50px;
   background: rgba(183, 40, 59, 0.2);
   transition: all 1s;
@@ -58,6 +58,10 @@
 .button-container > a:hover {
   background: rgba(183, 40, 59, 0.8);
   box-shadow: 0 0 25px rgb(29, 32, 43);
+}
+
+.button-container > a:focus {
+  outline: none;
 }
 
 .button-container > a > span {
@@ -85,6 +89,12 @@
     width: 175px;
   }
 
+  .button-container {
+    flex-direction: column;
+    width: 325px;
+    margin-top: 50px;
+  }
+
   .copyright {
     font-size: 0.8rem;
   }
@@ -108,6 +118,10 @@
 
   .headshot {
     width: 150px;
+  }
+
+  .button-container > a {
+    height: 40px;
   }
 
 }
