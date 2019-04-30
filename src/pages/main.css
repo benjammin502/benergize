@@ -56,7 +56,7 @@
 }
 
 .button-container > a:hover {
-  background: rgba(183, 40, 59, 0.8);
+  background: rgba(183, 40, 59, 0.6);
   box-shadow: 0 0 25px rgb(29, 32, 43);
 }
 
