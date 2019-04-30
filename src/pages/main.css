@@ -32,19 +32,39 @@
 .button-container {
   display: flex;
   flex-direction: row;
-  width: 800px;
+  width: 850px;
   height: 200px;
   justify-content: space-around;
   align-items: center;
   align-self: center;
+  flex-wrap: wrap;
 }
 
-.button-container > button {
+.button-container > a {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 50px;
   min-width: 250px;
+  padding-left: 15px;
+  text-decoration: none;
+  color: #DDDBF1;
+  border: 1px solid #B7283B;
+  border-radius: 50px;
+  background: rgba(183, 40, 59, 0.2);
+  transition: all 1s;
 }
+
+.button-container > a:hover {
+  background: rgba(183, 40, 59, 0.8);
+  box-shadow: 0 0 25px rgb(29, 32, 43);
+}
+
+.button-container > a > span {
+  margin-right: 50px;
+}
+
+
 
 /* Media Queries */
 /* 1200 */
